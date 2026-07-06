@@ -8,6 +8,7 @@
 
 ## デモ
 〔ここに Streamlit 画面のスクリーンショット or GIF を貼る〕
+<img width="1440" height="2032" alt="image" src="https://github.com/user-attachments/assets/9dba9a63-6760-402d-9fa6-a1a40aeeb632" />
 
 ## アーキテクチャ
 
