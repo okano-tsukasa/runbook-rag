@@ -8,9 +8,19 @@
 
 ## デモ
 
-<img width="1440" height="2032" alt="image" src="https://github.com/user-attachments/assets/9dba9a63-6760-402d-9fa6-a1a40aeeb632" />
-<img width="1440" height="731" alt="image" src="https://github.com/user-attachments/assets/4c75749f-a7e1-49da-b3f1-66f64608483f" />
-<img width="1440" height="731" alt="image" src="https://github.com/user-attachments/assets/d878e0d6-7f40-413b-a4ff-ac2d66a7bd7b" />
+**① 出典つきで回答し、根拠にした手順チャンクを画面で確認できる**
+
+<img src="assets/demo-main.png" width="720" alt="アクセスキー漏洩への対応を質問し、出典と参照チャンク4件を表示している画面">
+
+**② 手順書の語彙と一致しない質問でも、意味検索で正しい手順に到達する**
+（質問文に「バージョニング」という語は無いが、S3 誤削除の復元手順を正しく引けている）
+
+<img src="assets/demo-paraphrase.png" width="720" alt="S3のファイルを誤って消したという質問に、バージョニングによる復元を出典つきで回答している画面">
+
+**③ 手順書に無いことは答えない（ハルシネーション抑制）**
+（Kubernetes の手順は docs/ に存在しないため「記載がありません」と回答する）
+
+<img src="assets/demo-guardrail.png" width="720" alt="手順書に無いKubernetesの質問に「記載がありません」と回答している画面">
 
 
 ## アーキテクチャ
